@@ -22,6 +22,6 @@ class String
      # delete those that aren't really sentences; How? If there's no words or elements in it?  ie, <2
      #.delete_if { |n| n.size <2 }.size
      #how_many.delete_if { |n| n.size < 2 }
-    
+
   end
 end
