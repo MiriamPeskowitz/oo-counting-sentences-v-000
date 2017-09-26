@@ -19,6 +19,6 @@ class String
     how_many = []
 
     how_many = self.split(/\. \? \! /).size
-  
+
   end
 end
