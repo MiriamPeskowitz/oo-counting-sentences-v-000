@@ -19,8 +19,9 @@ class String
     #how_many = []
 
     #how_many = self.split(/\.\?\!/).size
-
-    self.strip.split(/\w[\.\?\!]/).size
+    string.squeeze('.?!').count('.?!')
+    #count = self.strip.split(/\w[\.\?\!]/).size
+    #puts count
     binding.pry
   end
 end
