@@ -15,11 +15,11 @@ class String
     self.end_with?("!") ? true : false
   end
 
-  def count_sentences(string)
+  def count_sentences
     #how_many = []
 
     #how_many = self.split(/\.\?\!/).size
 
-    string.strip.split(/\w[\.\?\!]/).size
+    self.strip.split(/\w[\.\?\!]/).size
   end
 end
