@@ -21,5 +21,6 @@ class String
     #how_many = self.split(/\.\?\!/).size
 
     self.strip.split(/\w[\.\?\!]/).size
+    binding.pry
   end
 end
