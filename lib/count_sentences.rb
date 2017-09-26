@@ -16,12 +16,9 @@ class String
   end
 
   def count_sentences
-    #how_many = []
-
-    #how_many = self.split(/\.\?\!/).size
+    
     self.squeeze('.?!').count('.?!')
-    #count = self.strip.split(/\w[\.\?\!]/).size
-    #puts count
-
+    
   end
 end
+#count = self.strip.split(/\w[\.\?\!]/).size
