@@ -19,7 +19,7 @@ class String
     #how_many = []
 
     #how_many = self.split(/\.\?\!/).size
-    string.squeeze('.?!').count('.?!')
+    self.squeeze('.?!').count('.?!')
     #count = self.strip.split(/\w[\.\?\!]/).size
     #puts count
     binding.pry
