@@ -16,9 +16,9 @@ class String
   end
 
   def count_sentences
-    
+
     self.squeeze('.?!').count('.?!')
-    
+
   end
 end
 #count = self.strip.split(/\w[\.\?\!]/).size
