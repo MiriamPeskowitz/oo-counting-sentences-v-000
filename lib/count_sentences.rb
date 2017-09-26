@@ -22,6 +22,6 @@ class String
     self.squeeze('.?!').count('.?!')
     #count = self.strip.split(/\w[\.\?\!]/).size
     #puts count
-    binding.pry
+
   end
 end
