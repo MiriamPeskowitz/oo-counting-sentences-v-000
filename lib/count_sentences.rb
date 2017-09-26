@@ -17,8 +17,7 @@ class String
 
   def count_sentences
     how_many = []
-    how_many = self.split(/\.\?\!/)
-    how_many.length
+    how_many = self.split(/\.\?\!/).length
     binding.pry
   end
 end
