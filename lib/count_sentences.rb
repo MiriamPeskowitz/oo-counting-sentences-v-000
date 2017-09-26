@@ -16,6 +16,7 @@ class String
   end
 
   def count_sentences
+    how_many = []
     # split into sentences, use regex
     how_many = self.split(/\.\?\!/).count
      # delete those that aren't really sentences; How? If there's no words or elements in it?  ie, <2
