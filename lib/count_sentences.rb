@@ -17,8 +17,11 @@ class String
 
   def count_sentences
     # split into sentences, use regex
-    self.split(/\.\?\!/).delete_if { |w| w.size <2 }.size
+    how_many = self.split(/\.\?\!/)
      # delete those that aren't really sentences; How? If there's no words or elements in it?  ie, <2
-     #.delete_if { |w| w.size <2 }.size
+     #.delete_if { |n| n.size <2 }.size
+     how_many.delete_if { |n| n.size < 2 }
+     how_many.size
+     binding.pry
   end
 end
