@@ -17,9 +17,9 @@ class String
 
   def count_sentences
     how_many = []
-    self.split(/\.\?\!/).delete_if { |n| n.size <2 }.length
-    
-    
+    self.split(/\.\?\!/).delete_if { |n| n.size <2 }.size
+
+
     binding.pry
   end
 end
