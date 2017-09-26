@@ -23,6 +23,6 @@ class String
      #.delete_if { |n| n.size <2 }.size
      #how_many.delete_if { |n| n.size < 2 }
      how_many.size
-     binding.pry
+  
   end
 end
